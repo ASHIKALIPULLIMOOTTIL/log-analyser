@@ -1,0 +1,35 @@
+Nov  2 03:10:01 server CRON[1100]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 03:10:01 server CRON[1100]: pam_unix(cron:session): session closed for user root
+Nov  2 03:14:01 server sshd[1201]: Failed password for root from 203.0.113.45 port 52314 ssh2
+Nov  2 03:14:03 server sshd[1203]: Failed password for root from 203.0.113.45 port 52320 ssh2
+Nov  2 03:14:05 server sshd[1205]: Failed password for root from 203.0.113.45 port 52331 ssh2
+Nov  2 03:14:06 server sshd[1205]: message repeated 4 times: [ Failed password for root from 203.0.113.45 port 52331 ssh2]
+Nov  2 03:14:09 server sshd[1207]: Invalid user admin from 203.0.113.45 port 52340
+Nov  2 03:14:09 server sshd[1207]: Failed password for invalid user admin from 203.0.113.45 port 52340 ssh2
+Nov  2 03:14:12 server sshd[1209]: Failed password for invalid user admin from 203.0.113.45 port 52352 ssh2
+Nov  2 03:14:15 server sshd[1211]: Failed password for root from 203.0.113.45 port 52361 ssh2
+Nov  2 03:14:18 server sshd[1213]: Failed password for root from 203.0.113.45 port 52377 ssh2
+Nov  2 03:14:20 server sshd[1213]: Connection closed by authenticating user root 203.0.113.45 port 52377 [preauth]
+Nov  2 03:20:10 server sshd[1290]: Invalid user oracle from 198.51.100.23 port 40122
+Nov  2 03:20:10 server sshd[1290]: Failed password for invalid user oracle from 198.51.100.23 port 40122 ssh2
+Nov  2 03:20:41 server sshd[1295]: Failed password for invalid user test from 198.51.100.23 port 40188 ssh2
+Nov  2 03:21:15 server sshd[1301]: Failed password for invalid user postgres from 198.51.100.23 port 40210 ssh2
+Nov  2 03:21:49 server sshd[1308]: Failed password for invalid user git from 198.51.100.23 port 40255 ssh2
+Nov  2 03:22:20 server sshd[1312]: Failed password for invalid user pi from 198.51.100.23 port 40290 ssh2
+Nov  2 03:22:52 server sshd[1319]: Failed password for invalid user ftpuser from 198.51.100.23 port 40333 ssh2
+Nov  2 03:23:25 server sshd[1325]: Failed password for invalid user deploy from 198.51.100.23 port 40371 ssh2
+Nov  2 04:02:00 server sshd[1500]: Failed password for ubuntu from 192.0.2.77 port 33010 ssh2
+Nov  2 04:02:04 server sshd[1502]: Failed password for ubuntu from 192.0.2.77 port 33018 ssh2
+Nov  2 04:02:08 server sshd[1504]: Failed password for ubuntu from 192.0.2.77 port 33027 ssh2
+Nov  2 04:02:12 server sshd[1506]: Failed password for ubuntu from 192.0.2.77 port 33035 ssh2
+Nov  2 04:02:16 server sshd[1508]: Failed password for ubuntu from 192.0.2.77 port 33044 ssh2
+Nov  2 04:02:20 server sshd[1510]: Failed password for ubuntu from 192.0.2.77 port 33051 ssh2
+Nov  2 04:02:25 server sshd[1512]: Accepted password for ubuntu from 192.0.2.77 port 33060 ssh2
+Nov  2 04:02:25 server sshd[1512]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Nov  2 04:05:41 server sshd[1512]: pam_unix(sshd:session): session closed for user ubuntu
+Nov  2 09:01:58 server sshd[2001]: Failed password for ubuntu from 10.0.0.5 port 61001 ssh2
+Nov  2 09:02:13 server sshd[2003]: Accepted publickey for ubuntu from 10.0.0.5 port 61002 ssh2: ED25519 SHA256:k3J9xQz2mVbN8pR4tYw1uE6sLaH0cFdGiOjKlMnBvCx
+Nov  2 09:02:13 server sshd[2003]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Nov  2 09:15:30 server sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  2 10:44:02 server sshd[2210]: Failed password for root from 203.0.113.45 port 55102 ssh2
+Nov  2 10:44:05 server sshd[2212]: Failed password for root from 203.0.113.45 port 55110 ssh2
